@@ -1,4 +1,5 @@
-/*сложный этот ваш css*/
+/* css код взят из "NotAnotherAnimeTheme" с небольшими изменениями, из-за обновления BetterDiscord  |  https://github.com/puckzxz/NotAnotherAnimeTheme  -  автор*/
+
 html {
     font-size: var(--font-size) !important;
 }
@@ -282,7 +283,7 @@ html {
 }
 
 
-
+/* Blocked meesages color */
 .theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
     background: rgba(240, 71, 71, 0.05);
     color: #f04747;
@@ -365,7 +366,7 @@ html {
     border-radius: 0 !important;
 }
 
-
+/* 07-2018 update */
 .theme-dark .markup-2BOw-j pre {
     background: rgba(0, 0, 0, 0.6);
     border-color: var(--main-color);
@@ -1878,6 +1879,7 @@ html {
     background-color: var(--hover-list-bg-color);
 }
 
+/* extras optional */
 .theme-dark .topSectionNormal-2-vo2m {
     background-color: rgba(22,22,22,.6);
 }
@@ -1941,6 +1943,7 @@ html {
     background-color: var(--hover-list-bg-color);
 }
 
+/* end extras */
 
 div.unread-mentions-indicator-bottom {
     display: none !important;
@@ -2303,19 +2306,19 @@ div.unread-mentions-indicator-bottom {
     width: 12px !important;
 }
 
-/* цвет текста */
+/* Edit this to change the color of a selected text or voice join */
 .nameSelectedText-sp_EUw, .nameSelectedVoice-1qSph5 {
     color: var(--selected-text-voice-color);
 }
-
+/* Edit this to change the color when you hover over a text channel */
 .nameHoveredText-1uO31y {
     color: var(--text-hover-color);
 }
-
+/* Edit this to change the color when you hover over a voice channel */
 .nameHoveredVoice-YJ1Vfd {
     color: var(--voice-hover-color);
 }
-
+/* Edit this to change the color of an unread text channel color */
 .nameUnreadText-DfkrI4, .nameUnreadVoice-EVo-wI {
     color: var(--unread-text-color);
 }
@@ -2605,7 +2608,7 @@ div.unread-mentions-indicator-bottom {
     background-color: rgba(255,255,255,.15);
 }
 
-/* кнопочки */
+/* upload buttons */
 .lookInverted-2D7oAl.colorBrand-3pXr91 {
     background-color: rgba(255,255,255,.15);
     color: #fff;
@@ -2650,7 +2653,7 @@ div.unread-mentions-indicator-bottom {
     background-color: rgba(255,255,255,.2);
 }
 
-/* эмодзи */
+/* emojis */
 .emojiPicker-3m1S-j .searchBar-2pWH0_ {
 padding: 0 !important;
 }
@@ -3704,4 +3707,37 @@ padding: 0 !important;
 }
 .folder-1hbNCn {
     background-color: transparent;
+}
+
+.reaction-1hd86g {
+    background: rgba(0,0,0,0);
+}
+
+.reaction-1hd86g:hover {
+    background-color: rgba(255,255,255,0.1);
+    border-color: hsla(0,0%,100%,.2);
+}
+
+.container-lRFx4q {
+    background-color: transparent;
+}
+
+.section-2gLsgF {
+    background-color: transparent;
+}
+
+.theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.headerNormal-1l1Znk {
+    background-color: transparent !important;
+}
+
+.profileBanner-33-uE1 {
+    background-color: transparent !important;
+}
+
+.headerTop-2y3V6H {
+    background-color: transparent !important;
 }
